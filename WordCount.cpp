@@ -1,6 +1,6 @@
 // WordCount.cpp
-
 #include "WordCount.h"
+#include <sstream>
 
 using namespace std;
 

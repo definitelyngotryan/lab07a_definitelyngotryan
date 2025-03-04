@@ -14,7 +14,7 @@ all: $(TARGETS)
 
 # Linking rules for each test file
 Lab07Test: WordCount.o tddFuncs.o Lab07Test.o
-    $(CXX) $(CXXFLAGS) -o Lab07Test WordCount.o tddFuncs.o Lab07Test.o
+	$(CXX) $(CXXFLAGS) -o Lab07Test WordCount.o tddFuncs.o Lab07Test.o
 
 ############## INCASE WE NEED MORE THAN 1 TEST FILE (CODE FROM 6A MAKE FILE) #####################
 # lab07Test01: WordCount.o tddFuncs.o lab07Test01.o
@@ -25,8 +25,8 @@ Lab07Test: WordCount.o tddFuncs.o Lab07Test.o
 
 # Compilation rule for .cpp files
 %.o: %.cpp
-    $(CXX) $(CXXFLAGS) -c $< -o $@
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 # Clean .o files
 clean:
-    rm -f $(OBJ) $(TARGETS)
+	rm -f $(OBJ) $(TARGETS)
