@@ -8,6 +8,7 @@
 #include <vector>
 #include <utility>
 #include <algorithm>
+#include <sstream>
 
 class WordCount {
 public:

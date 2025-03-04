@@ -16,7 +16,7 @@ all: $(TARGETS)
 Lab07Test: WordCount.o tddFuncs.o Lab07Test.o
 	$(CXX) $(CXXFLAGS) -o Lab07Test WordCount.o tddFuncs.o Lab07Test.o
 
-############## INCASE WE NEED MORE THAN 1 TEST FILE (CODE FROM 6A MAKE FILE) #####################
+############## INCASE WE NEED MORE THAN 1 TEST FILE (CODE FROM 6A MAKE FILE EDITED WITH "07" instead of "06") #####################
 # lab07Test01: WordCount.o tddFuncs.o lab07Test01.o
 #   $(CXX) $(CXXFLAGS) -o lab07Test01 WordCount.o tddFuncs.o lab07Test01.o
 
